@@ -594,7 +594,54 @@ ul {
 }
 
 /* =========================================
-   6. CONTACT
+   6. CERTIFICATIONS
+   ========================================= */
+.certifications-card {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.certification-item {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    transition: var(--transition-smooth);
+}
+
+.certification-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.certification-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.certification-item p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.certificate-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 1rem;
+    color: var(--accent-4);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.certificate-link:hover {
+    color: white;
+    transform: translateX(3px);
+}
+
+/* =========================================
+   7. CONTACT
    ========================================= */
 .contact-card p {
     font-size: 1.2rem;
